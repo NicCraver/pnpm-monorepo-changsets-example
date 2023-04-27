@@ -8,9 +8,6 @@
   "dependencies": {
     "@common/monorepo-pkg-a": "^0.0.0"
   },
-  "devDependencies": {
-    "typescript": "^4.9.4"
-  },
   "scripts": {
     "watch": "tsc index.ts --outDir dist --watch",
     "build": "rimraf dist && tsc index.ts --outDir dist",
